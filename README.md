@@ -19,7 +19,7 @@ Utilisation
 ## VM Configuration and parameters
 
   * All parameters are in ansible/vars/all.yml
-  * You'll also have to configure this file mnanually : Vagrantfile
+  * You'll also have to configure this file manually : Vagrantfile
 
 ## VM Provisioning
 
