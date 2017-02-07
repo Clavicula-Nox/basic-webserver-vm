@@ -1,0 +1,11 @@
+[all:vars]
+debug=true
+
+[webserver]
+192.168.45.99
+
+[database]
+192.168.45.99
+
+[vagrant]
+192.168.45.99

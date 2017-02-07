@@ -1,0 +1,28 @@
+---
+- name: Web server
+  hosts: webserver
+  become: true
+  vars_files:
+    - vars/all.yml
+  roles:
+    - server
+    - nginx
+    - php
+    - composer
+
+- name: Database
+  hosts: database
+  become: true
+  vars_files:
+    - vars/all.yml
+  roles:
+    - server
+    - mysql
+
+- name: Vagrant
+  hosts: vagrant
+  become: true
+  vars_files:
+    - vars/all.yml
+  roles:
+    - vagrant_local

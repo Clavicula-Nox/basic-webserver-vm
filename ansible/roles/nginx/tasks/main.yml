@@ -1,0 +1,9 @@
+---
+- name: Install Nginx
+  become: yes
+  apt: pkg=nginx state=latest
+
+- name: Add Default conf
+  become: yes
+  template: src=default.j2 dest=/etc/nginx/sites-enabled/default
+  notify: restart nginx
