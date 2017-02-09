@@ -13,20 +13,20 @@ Issues and feature requests are tracked in the Github issue tracker.
 
 **DO NOT USE THIS IN A PRODUCTION ENVIRONMENT**
 
-Utilisation
-------------
-
-## VM Configuration and parameters
+VM Configuration and parameters
+-------------------------------
 
   * All parameters are in ansible/vars/all.yml
   * You'll also have to configure this file manually : Vagrantfile
 
-## VM Provisioning
+VM Provisioning
+---------------
 
   * Run your virtual machine: `vagrant up --provision`
   * Connect through SSH to the virtual machine: `vagrant ssh`
 
-## Host configuration
+Host configuration
+------------------
 
 For more convenience, setup local hosts on your **host machine**
 
