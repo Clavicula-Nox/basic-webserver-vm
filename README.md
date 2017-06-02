@@ -13,25 +13,28 @@ Issues and feature requests are tracked in the Github issue tracker.
 
 **DO NOT USE THIS IN A PRODUCTION ENVIRONMENT**
 
-Utilisation
-------------
-
-## VM Configuration and parameters
+VM Configuration and parameters
+-------------------------------
 
   * All parameters are in ansible/vars/all.yml
-  * You'll also have to configure this file mnanually : Vagrantfile
+  * You'll also have to configure this file manually : Vagrantfile
 
-## VM Provisioning
+VM Provisioning
+---------------
 
   * Run your virtual machine: `vagrant up --provision`
   * Connect through SSH to the virtual machine: `vagrant ssh`
 
-## Host configuration
+Host configuration
+------------------
 
 For more convenience, setup local hosts on your **host machine**
 
 ```
 sudo /bin/bash -c 'echo "192.168.45.99 dev.domain.ltd" >> /etc/hosts'
 ```
+<<<<<<< HEAD
 
 ## VM Configuration and parameters
+=======
+>>>>>>> 09565788f591a28fe5324b4673498c95509d4d49
