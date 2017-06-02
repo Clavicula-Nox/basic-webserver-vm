@@ -33,7 +33,3 @@ For more convenience, setup local hosts on your **host machine**
 ```
 sudo /bin/bash -c 'echo "192.168.45.99 dev.domain.ltd" >> /etc/hosts'
 ```
-
-## VM Configuration and parameters
-=======
-
